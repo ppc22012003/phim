@@ -1,0 +1,5 @@
+.movie-title:hover {
+    text-decoration: underline;
+    color: #dc3545 !important;
+    cursor: pointer;
+}

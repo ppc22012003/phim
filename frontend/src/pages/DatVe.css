@@ -1,0 +1,369 @@
+.booking-page{
+    background:#111827;
+    min-height:100vh;
+    color:#fff;
+    padding:40px 0;
+}
+
+.movie-title{
+    text-align:center;
+    color:#ffb400;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.booking-info{
+    text-align:center;
+    margin-bottom:30px;
+    color:#ddd;
+}
+
+.booking-info p{
+    margin-bottom:5px;
+}
+
+/*======================
+        SCREEN
+======================*/
+
+.screen-wrapper{
+    margin:40px auto 60px;
+    width:85%;
+    text-align:center;
+}
+
+.screen{
+
+    height:28px;
+
+    background:#fff;
+
+    border-radius:100% 100% 0 0;
+
+    box-shadow:
+        0 0 40px rgba(255,255,255,.8);
+
+}
+
+.screen-text{
+
+    margin-top:12px;
+
+    letter-spacing:8px;
+
+    font-weight:bold;
+
+    color:#ddd;
+
+}
+
+/*======================
+      SEAT AREA
+======================*/
+
+.seat-area{
+
+    width:fit-content;
+
+    margin:0 auto;
+
+}
+
+/* 1 hàng */
+
+.seat-row{
+
+    display:flex;
+
+    align-items:center;
+
+    margin-bottom:14px;
+
+}
+
+/* ký tự A B C */
+
+.row-label{
+
+    width:40px;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    color:#fbbf24;
+
+}
+
+/* cụm ghế */
+
+.seat-group{
+
+    display:flex;
+
+    gap:10px;
+
+}
+
+/* lối đi giữa */
+
+.middle-aisle{
+
+    width:90px;
+
+}
+
+/* lối đi ngang */
+
+.horizontal-aisle{
+
+    width:100%;
+
+    text-align:center;
+
+    margin:35px 0;
+
+    padding:12px;
+
+    border-top:2px dashed #777;
+
+    border-bottom:2px dashed #777;
+
+    color:#fbbf24;
+
+    font-weight:bold;
+
+    letter-spacing:3px;
+
+}
+
+/*======================
+        SEAT
+======================*/
+
+.seat{
+
+    width:46px;
+
+    height:46px;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-weight:700;
+
+    transition:.2s;
+
+    cursor:pointer;
+
+}
+
+.seat:hover{
+
+    transform:scale(1.08);
+
+}
+
+.seat-normal{
+
+    background:#4b5563;
+
+    color:#fff;
+
+}
+
+.seat-vip{
+
+    background:#f59e0b;
+
+    color:#fff;
+
+}
+
+.seat-double{
+
+    width:98px;
+
+    height:46px;
+
+    background:linear-gradient(
+        90deg,
+        #8b5cf6,
+        #7c3aed
+    );
+
+    color:#fff;
+
+    border-radius:12px;
+
+}
+
+.seat-selected{
+
+    background:#22c55e;
+
+    color:#fff;
+
+}
+
+.seat-booked{
+
+    background:#dc2626;
+
+    color:#fff;
+
+    cursor:not-allowed;
+
+}
+
+/*======================
+      ENTRANCE
+======================*/
+
+.entrance{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-top:45px;
+
+    color:#38bdf8;
+
+    font-weight:bold;
+
+    font-size:18px;
+
+}
+
+/*======================
+      LEGEND
+======================*/
+
+.legend{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+    margin-top:45px;
+
+}
+
+.legend-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+}
+
+.legend-box{
+
+    width:20px;
+
+    height:20px;
+
+    border-radius:5px;
+
+}
+
+.normal{background:#4b5563;}
+.vip{background:#f59e0b;}
+.double{background:#8b5cf6;}
+.selected{background:#22c55e;}
+.booked{background:#dc2626;}
+
+/*======================
+      PAYMENT
+======================*/
+
+.payment-box{
+
+    margin-top:40px;
+
+    text-align:center;
+
+}
+
+.payment-box h3{
+
+    margin-bottom:20px;
+
+}
+
+.payment-box button{
+
+    width:300px;
+
+    height:52px;
+
+    font-size:18px;
+
+}
+.seat-row{
+
+    display:flex;
+
+    align-items:center;
+
+    margin-bottom:12px;
+
+}
+
+.row-label{
+
+    width:40px;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    color:#fff;
+
+    text-align:center;
+
+}
+
+.seat-wrapper{
+
+    flex:1;
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+.seat-group{
+
+    display:flex;
+
+    gap:8px;
+
+}
+.middle-aisle{
+    width:90px;
+}
+
+.horizontal-aisle{
+    height:35px;
+}
+
+.seat-row{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.seat-group{
+    display:flex;
+    gap:8px;
+}

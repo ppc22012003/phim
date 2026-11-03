@@ -1,0 +1,35 @@
+.date-btn {
+    min-width: 120px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.movie-card {
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.movie-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.showtime-btn {
+    width: 90px;
+    height: 45px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.movie-poster {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.movie-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0d6efd;
+}
